@@ -79,6 +79,11 @@ const App = () => {
     return NetworkIds[chainId];
   };
 
+  let connection;
+  if(!isConnected){
+    connection = <Login onLogin={onLogin} onLogout={onLogout} />;
+  }
+
   return (
     <div>
       <header className="main-header">
@@ -92,7 +97,7 @@ const App = () => {
         </nav>
       </header>
       <main>
-        {!isConnected && <Login onLogin={onLogin} onLogout={onLogout} />}
+        {connection}
         {isConnected && (
           <Home currentAccount={currentAccount} currentNetwork={getCurrentNetwork(chainId)} />
         )}

@@ -51,6 +51,12 @@ function Login(props) {
     props.onLogin(provider);
   };
 
+  let metamask;
+  if(!isMetaMaskInstalled)
+  {
+    metamask =  <p><a href="/">Install Metamask</a></p>
+  }
+
   return (
     <Card className={classes.login}>
         {isMetaMaskInstalled &&
@@ -58,11 +64,7 @@ function Login(props) {
         {!isConnecting && "Log In"}
         {isConnecting && "Loading..."}
       </button>}
-      {!isMetaMaskInstalled &&
-      <p>
-          <a href="/">Install Metamask</a>
-      </p>
-      } 
+      {metamask} 
       
       
     </Card>
