@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/metamask-login/static/css/main.138b2095.chunk.css",
+    "main.js": "/metamask-login/static/js/main.222a6dfe.chunk.js",
+    "main.js.map": "/metamask-login/static/js/main.222a6dfe.chunk.js.map",
+    "runtime-main.js": "/metamask-login/static/js/runtime-main.1a8e9a4f.js",
+    "runtime-main.js.map": "/metamask-login/static/js/runtime-main.1a8e9a4f.js.map",
+    "static/js/2.1530bc82.chunk.js": "/metamask-login/static/js/2.1530bc82.chunk.js",
+    "static/js/2.1530bc82.chunk.js.map": "/metamask-login/static/js/2.1530bc82.chunk.js.map",
+    "static/js/3.88ee78ce.chunk.js": "/metamask-login/static/js/3.88ee78ce.chunk.js",
+    "static/js/3.88ee78ce.chunk.js.map": "/metamask-login/static/js/3.88ee78ce.chunk.js.map",
+    "index.html": "/metamask-login/index.html",
+    "static/css/main.138b2095.chunk.css.map": "/metamask-login/static/css/main.138b2095.chunk.css.map",
+    "static/js/2.1530bc82.chunk.js.LICENSE.txt": "/metamask-login/static/js/2.1530bc82.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a8e9a4f.js",
+    "static/js/2.1530bc82.chunk.js",
+    "static/css/main.138b2095.chunk.css",
+    "static/js/main.222a6dfe.chunk.js"
+  ]
+}
